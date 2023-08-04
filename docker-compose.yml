@@ -1,0 +1,25 @@
+version: '3'
+services:
+
+  db:
+    container_name: db
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: true
+      MYSQL_DATABASE: task_1
+      MYSQL_USER: user
+      MYSQL_PASSWORD: root
+    ports:
+      - "3306:3306"
+      - "5655:3306"
+  phpmyadmin:
+    image: phpmyadmin
+    container_name: phpmyadmin
+    links:
+      - db
+    environment:
+      PMA_HOST: db
+    restart: always
+    ports:
+      - 8081:80

@@ -1,0 +1,379 @@
+body,
+nav {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgb(63, 81, 181);
+}
+
+body {
+    background-color: #EFEFEF;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+section.intro.wrapper {
+    align-items: center;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    text-align: end;
+}
+
+ul li {
+    padding: 0 15px;
+    list-style-type: none;
+}
+
+ul li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.mdl-menu .mdl-menu__item a {
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    text-decoration: none;
+
+}
+
+.logo p {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro h1 {
+    text-align: center;
+}
+
+/* User, pokes list page */
+.main-section .mdl-dialog__content {
+    max-width: 900px;
+    background-color: #fff;
+    margin: 50px auto 100px auto;
+}
+
+h4.page-title {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.search-bar {
+    width: 80%;
+    padding-left: 15px;
+    height: 30px;
+    position: relative;
+    margin-left: 30px;
+}
+
+/* .search-bar::after {
+    position: absolute;
+    content: 'url(<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#000000}</style><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>)'
+    
+} */
+.display-m .mdl-button .material-icons {
+    color: white;
+}
+
+ul.mdl-menu {
+    flex-direction: column;
+}
+
+/* register, login, update */
+.register_login_section .mdl-dialog__content {
+    max-width: 700px;
+    margin: 50px auto 100px auto;
+    background-color: #fff;
+    padding-left: 280px;
+    padding-right: 280px;
+    padding-top: 70px;
+}
+
+.register_login_section.login .mdl-dialog__content {
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.register_login_section h4.page-title {
+    padding: 0px 0px 45px 0;
+    margin: 0px;
+}
+
+.register_login_section .input {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.register_login_section .input input,
+.register_login_section .input {
+    width: 200px;
+    height: 30px;
+    border-radius: 0;
+    border-color: black;
+    border-width: 1px;
+}
+
+.register_login_section .input {
+    width: 385px;
+    padding-left: 20px;
+}
+
+.register_login_section .input .input-name {
+    margin: 0;
+    padding-top: 4px;
+    text-align: end;
+}
+
+.input .label {
+    min-width: 164px;
+}
+
+.really-input-div {
+    padding-left: 15px;
+}
+
+.submit-btn {
+    width: 115px;
+    padding: 10px 0px;
+    background-color: rgb(63, 81, 181);
+    border: none;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.login .submit-btn {
+    width: 49%;
+    background-color: #58a758;
+    margin-right: 10px;
+}
+
+.mt-4 {
+    margin-top: 30px;
+    ;
+}
+
+.mb-5 {
+    margin-bottom: 50px;
+}
+
+.login .sgn-btn {
+    background-color: rgb(63, 81, 181);
+    width: 49%;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 2px;
+    position: relative;
+}
+
+.login .sgn-btn,
+.register .submit-btn {
+    position: relative;
+}
+
+.login .sgn-btn::after,
+.register .submit-btn::after {
+    content: ">";
+    position: absolute;
+    right: 6px;
+    color: white;
+}
+
+.sgn-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.login .login_register {
+    display: flex;
+}
+
+.submit-btn-div {
+    display: flex;
+    justify-content: end;
+}
+
+.register .submit-btn-div {
+    margin-top: 30px;
+}
+
+.main-section .mdl-dialog__content {
+    padding: 20px 0 24px 0px;
+}
+
+.display-m {
+    display: none;
+}
+
+.display-d {
+    display: block;
+}
+
+.display-d-flex {
+    display: flex;
+}
+
+.search-submit {
+    line-height: 31px;
+    background-color: rgb(63, 81, 181);
+    color: white;
+    border: 0;
+    padding-top: 2px;
+    border-radius: 2px;
+}
+
+.input-group.search-div {
+    margin-bottom: 25px;
+}
+
+.main-section .mdl-cell {
+    text-align: center;
+}
+
+.main-section .mdl-grid {
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.main-section .mdl-grid:last-child {
+    border: 0;
+}
+
+.sendPoke {
+    width: 120px;
+    line-height: 30px;
+    background-color: rgb(63, 81, 181);
+    color: white;
+    position: relative;
+    border: 0;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .display-m {
+        display: flex;
+    }
+
+    .display-d,
+    .display-d-flex {
+        display: none;
+    }
+
+    .register_login_section.login .mdl-dialog__content {
+        padding-left: 160px;
+        padding-right: 160px;
+    }
+
+    .register .mdl-dialog__content {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .pokes .mdl-grid {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .pokes .mdl-cell {
+        display: flex;
+    }
+
+    .search-bar {
+        margin-top: 1px;
+        margin-left: 2px;
+    }
+
+    .input-group.search-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    span.input-group-btn {
+        padding-left: 5px;
+        margin-top: 2px;
+    }
+}
+
+
+@media only screen and (max-width: 778px) {
+    .register_login_section .input {
+        width: 200px;
+    }
+
+    .register_login_section.register .input {
+        width: unset;
+    }
+
+    .register .mdl-dialog__content {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .search-bar {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .register_login_section.login .mdl-dialog__content {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    .register_login_section .input {
+        width: 224px;
+    }
+
+    .login .submit-btn,
+    .sgn-btn a {
+        font-size: 12px;
+    }
+
+    .register_login_section .input input {
+        width: 150px;
+    }
+    .register .mdl-dialog__content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .register .mdl-dialog__content p {
+        font-size: 12px;
+    }
+    .register .mdl-dialog__content .input .label {
+        min-width: 139px;
+    }
+    .register_login_section .input {
+        padding-left: 0;
+    }
+
+}
+
+ul.pagination li a {
+    color: #000;
+}
